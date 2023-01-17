@@ -1,5 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -9,12 +14,23 @@ body{
     background-color: #fff;
 }
 
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
 .site-logo-img{
     height: 80px;
     object-fit: cover;
 }
 .sitenav-list{
     list-style: none;
+    
+}
+.sitenav{
+    display: flex;
+    flex-direction: row;
 }
 
 .sitenav-link{
