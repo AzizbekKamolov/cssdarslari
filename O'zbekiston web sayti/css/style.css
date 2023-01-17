@@ -1,0 +1,85 @@
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #000;
+    background-color: #fff;
+}
+
+.site-logo-img{
+    height: 80px;
+    object-fit: cover;
+}
+.sitenav-list{
+    list-style: none;
+}
+
+.sitenav-link{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'bebas', sans-serif;
+}
+
+
+
+
+/* main content */
+
+
+.hero{
+    background-color: skyblue;
+}
+
+.hero-heading{
+    font-size: 60px;
+
+}
+
+
+.btn{
+    text-decoration: none;
+}
+
+.hero-button{
+    color: #fff;
+}
+
+/*news*/
+ .news-heading, .viloyatlar-heading{
+    font-size: 32px;
+    font-family: 'bebas',serif;
+ }
+
+ .news-list{
+    list-style:none;
+ }
+
+ .news-item-img{
+    object-fit: cover;
+    width: 400px;
+    height: 200px;
+ }
+
+
+.aside{
+    background-color: skyblue;
+}
+
+.viloyatlar-list{
+    list-style: none;
+}
+
+.viloyatlari-link{
+    font-size: 24px;
+    font-family: 'bebas',serif;
+    color: #222;
+    text-decoration: none;
+}
+
+.following{
+    background-color: skyblue;
+}
