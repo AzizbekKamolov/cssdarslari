@@ -51,7 +51,7 @@ body{
 /*news*/
  .news-heading, .viloyatlar-heading{
     font-size: 32px;
-    font-family: 'bebas',serif;
+    font-family: 'Bebas neue',serif;
  }
 
  .news-list{
@@ -75,11 +75,23 @@ body{
 
 .viloyatlari-link{
     font-size: 24px;
-    font-family: 'bebas',serif;
+    font-family: 'Bebas neue',serif;
     color: #222;
     text-decoration: none;
 }
 
 .following{
     background-color: skyblue;
+}
+
+.following-heading{
+    font-size: 40px;
+    font-family: 'Bebas neue',serif;
+}
+.following-list{
+    list-style: none;
+}
+
+.site-footer{
+    background-color: #222;
 }
