@@ -13,10 +13,13 @@ body{
     border: 1px solid #f4f4f4;
     margin: 100px auto;
     max-width: 600px;
+    height: 200px;
     overflow: hidden;
 }
  .slider-1 .slider{
+    height: 100%;
     display: flex;
+    flex-direction: column-reverse;
     animation: slider-1 12s infinite ease-in-out;
 }
 
@@ -35,22 +38,22 @@ body{
 @keyframes slider-1{
     0%,
     20%{
-        transform: translateX(0);
+        transform: translateY(0);
     }
     25%,
     45%{
-        transform: translateX(-100%);
+        transform: translateY(100%);
     }
     50%,
     70%{
-        transform: translateX(-200%);
+        transform: translateY(200%);
     }
     75%,
     95%{
-        transform: translateX(-300%);
+        transform: translateY(300%);
     }
     100%{
-        transform: translateX(-400%);
+        transform: translateY(400%);
     }
 
 }
