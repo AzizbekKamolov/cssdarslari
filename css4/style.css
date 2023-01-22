@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 100px;
+    background-color: #f4f4f4;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    /* box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.17); */
+    -webkit-box-shadow: 7px 11px 42px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 7px 11px 42px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 11px 42px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+    border-radius: 15px;
+}
