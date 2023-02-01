@@ -32,7 +32,7 @@ table, th, td{
 table th{
     background-color: #bbb9b9;
     position: sticky;
-    top: 50px;    
+    top: 0px;    
 }
 table thead{
     overflow: hidden;
@@ -48,16 +48,14 @@ table{
     
 }
 
-tbody td:hover {
-    background-color: rgb(233, 240, 255);
-  }
-
 tbody tr{
     border-bottom: 1px solid #dddddd;
 }
 
 tr:hover{
     background-color: #f4f4f4;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
 } 
 
 .table__body{
